@@ -2,7 +2,9 @@
 
 Harjoituksia kurssin **opintomateriaalin** perusteella.
 
-## Viikko 1
+## Tehtävät
+
+### Viikko 1
 Aluksi on tarkoitus opetella *Gitin* ja *GitHubin* kayttoa.
 
 [komentorivi.txt](https://github.com/Mlake18/otm-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
