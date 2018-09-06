@@ -1,0 +1,74 @@
+t log --stat | cat
+commit 924c1309249c616d5522087600ff4ff049c60134
+Author: Mlake18 <merja-liisa.akerman@helsinki.fi>
+Date:   Wed Sep 5 15:54:20 2018 +0300
+
+    Uusi tiedosto uusi.txt
+
+     uusi.txt | 1 +
+      1 file changed, 1 insertion(+)
+
+      commit 4e2d3f2e5373f09983563287f86b17c3d3f9c9cd
+      Author: Mlake18 <merja-liisa.akerman@helsinki.fi>
+      Date:   Wed Sep 5 15:51:41 2018 +0300
+
+          muutettu eka.txt
+
+	   eka.txt | 2 +-
+	    1 file changed, 1 insertion(+), 1 deletion(-)
+
+	    commit b7734a657f33072b12f8d57fc26561f04081cddd
+	    Author: Mlake18 <merja-liisa.akerman@helsinki.fi>
+	    Date:   Wed Sep 5 15:46:57 2018 +0300
+
+	        uusi nimi
+
+		 eka.txt | 1 +
+		  1 file changed, 1 insertion(+)
+
+		  commit c462cd3782aedda4e81d33b28594bde6f4677136
+		  Author: Mlake18 <merja-liisa.akerman@helsinki.fi>
+		  Date:   Wed Sep 5 15:34:10 2018 +0300
+
+		      Nimi muutett# Please enter the commit message for your changes. Lines starting
+
+		       tdosto.txt | 1 -
+		        1 file changed, 1 deletion(-)
+
+			commit a2b2c94df005d4a5488315feac230c504eb0885c
+			Author: Mlake18 <merja-liisa.akerman@helsinki.fi>
+			Date:   Wed Sep 5 15:30:52 2018 +0300
+
+			    toinen poistettu
+
+			     toinen.txt | 1 -
+			      1 file changed, 1 deletion(-)
+
+			      commit 2fb4273ea7a3519b3d64a19fc23597ac9c0587ff
+			      Author: Mlake18 <merja-liisa.akerman@helsinki.fi>
+			      Date:   Wed Sep 5 15:26:38 2018 +0300
+
+			          uusi hakemisto lisätty
+
+				   stuff/kolmas.txt | 1 +
+				    1 file changed, 1 insertion(+)
+
+				    commit 02927ca228f6d5331658550423ba6c785cba34d2
+				    Author: Mlake18 <merja-liisa.akerman@helsinki.fi>
+				    Date:   Wed Sep 5 15:23:35 2018 +0300
+
+				        toinen.txt muutettu
+
+					 tdosto.txt | 1 +
+					  toinen.txt | 1 +
+					   2 files changed, 2 insertions(+)
+
+					   commit 7b6db67dd5525728e501d4b655eea1a260b6d34e
+					   Author: Mlake18 <merja-liisa.akerman@helsinki.fi>
+					   Date:   Wed Sep 5 14:53:03 2018 +0300
+
+					       tdosto.txt luotu
+
+					        tdosto.txt | 0
+						 1 file changed, 0 insertions(+), 0 deletions(-)
+						 q
