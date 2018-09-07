@@ -1,4 +1,4 @@
-# Ohjelmistotuotannon menetelmat
+# Ohjelmistotekniikan menetelmat
 
 Harjoituksia kurssin **opintomateriaalin** perusteella.
 
