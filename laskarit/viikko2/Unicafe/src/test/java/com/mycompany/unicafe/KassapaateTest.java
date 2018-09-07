@@ -138,7 +138,14 @@ public class KassapaateTest {
          Maksukortti kortti = new Maksukortti(500);
          kassa.lataaRahaaKortille(kortti, 500);
          assertEquals(kortti.saldo(), 1000);
-         assertEquals(kassa.kassassaRahaa(),100500);
-         
+         assertEquals(kassa.kassassaRahaa(),100500);         
+     }
+     
+     @Test
+     public void negatiivinenSummaEiMuutaKortinSaldoa() {
+         Maksukortti kortti= new Maksukortti(500);
+         kassa.lataaRahaaKortille(kortti, -500);
+         assertEquals(kortti.saldo(), 500);
+         assertEquals(kassa.kassassaRahaa(), 100000);
      }
 }
